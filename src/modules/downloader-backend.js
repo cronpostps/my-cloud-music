@@ -177,6 +177,7 @@ async function processSingleItem(item, index, existingFileNamesLower, formatId =
             embedThumbnail: true, addMetadata: true, 
             output: outputTemplate,
             noPlaylist: true,
+            noWarnings: true,
             extractorArgs: 'youtube:player_client=android,ios',
             jsRuntimes: 'node',
             impersonate: 'chrome-110', 
