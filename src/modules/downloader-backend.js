@@ -74,7 +74,7 @@ async function getPreviewInfo(url) {
             impersonate: 'chrome-110', 
             noCheckCertificates: true,
             // forceIpv4: true,
-            forceIpv6: true,
+            // forceIpv6: true,
             // username: 'oauth2',
             // password: ''
             // cookies: '/app/cookies.txt'
@@ -182,7 +182,7 @@ async function processSingleItem(item, index, existingFileNamesLower, formatId =
             impersonate: 'chrome-110', 
             noCheckCertificates: true,
             // forceIpv4: true,
-            forceIpv6: true,
+            // forceIpv6: true,
             concurrentFragments: DOWNLOAD_FRAGMENTS,
             retries: 10,
             sleepRequests: 3,     // Nghỉ 3 giây giữa các request
